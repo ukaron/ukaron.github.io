@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "Ukaron portfolio",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,14 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "mario-background-png.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "600x385"
     }
   ],
   "start_url": ".",
