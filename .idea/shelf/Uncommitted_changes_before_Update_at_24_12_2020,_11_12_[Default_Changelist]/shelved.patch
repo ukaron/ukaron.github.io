@@ -1,0 +1,130 @@
+Index: public/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <link rel=\"icon\" href=\"%PUBLIC_URL%/favicon.ico\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"theme-color\" content=\"#000000\" />\n    <meta\n      name=\"description\"\n      content=\"Web site created using create-react-app\"\n    />\n    <link rel=\"apple-touch-icon\" href=\"%PUBLIC_URL%/logo192.png\" />\n    <!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n    -->\n    <link rel=\"manifest\" href=\"%PUBLIC_URL%/manifest.json\" />\n    <!--\n      Notice the use of %PUBLIC_URL% in the tags above.\n      It will be replaced with the URL of the `public` folder during the build.\n      Only files inside the `public` folder can be referenced from the HTML.\n\n      Unlike \"/favicon.ico\" or \"favicon.ico\", \"%PUBLIC_URL%/favicon.ico\" will\n      work correctly both with client-side routing and a non-root public URL.\n      Learn how to configure a non-root public URL by running `npm run build`.\n    -->\n    <title>React App</title>\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"root\"></div>\n    <!--\n      This HTML file is a template.\n      If you open it directly in the browser, you will see an empty page.\n\n      You can add webfonts, meta tags, or analytics to this file.\n      The build step will place the bundled scripts into the <body> tag.\n\n      To begin the development, run `npm start` or `yarn start`.\n      To create a production bundle, use `npm run build` or `yarn build`.\n    -->\n  </body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/index.html b/public/index.html
+--- a/public/index.html	(revision 7c8c40fed758323e4d2ec373296bbcede071ba6e)
++++ b/public/index.html	(date 1608797293489)
+@@ -9,35 +9,13 @@
+       name="description"
+       content="Web site created using create-react-app"
+     />
+-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+-    <!--
+-      manifest.json provides metadata used when your web app is installed on a
+-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+-    -->
++
+     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+-    <!--
+-      Notice the use of %PUBLIC_URL% in the tags above.
+-      It will be replaced with the URL of the `public` folder during the build.
+-      Only files inside the `public` folder can be referenced from the HTML.
+-
+-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+-      work correctly both with client-side routing and a non-root public URL.
+-      Learn how to configure a non-root public URL by running `npm run build`.
+-    -->
+-    <title>React App</title>
++    <title>Ukaron portfolio</title>
+   </head>
+   <body>
+     <noscript>You need to enable JavaScript to run this app.</noscript>
+     <div id="root"></div>
+-    <!--
+-      This HTML file is a template.
+-      If you open it directly in the browser, you will see an empty page.
+ 
+-      You can add webfonts, meta tags, or analytics to this file.
+-      The build step will place the bundled scripts into the <body> tag.
+-
+-      To begin the development, run `npm start` or `yarn start`.
+-      To create a production bundle, use `npm run build` or `yarn build`.
+-    -->
+   </body>
+ </html>
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n        <h1>todo: <h2>create design</h2>\n            <h2>create nav</h2>\n            <h2>create components</h2>\n            <h2>create animation</h2>\n            <h2>add info and jobs</h2>\n        </h1>\n    </div>\n  );\n}\n\nexport default App;\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	(revision 7c8c40fed758323e4d2ec373296bbcede071ba6e)
++++ b/src/App.js	(date 1608797345107)
+@@ -3,12 +3,14 @@
+ function App() {
+   return (
+     <div className="App">
+-        <h1>todo: <h2>create design</h2>
++        <div>
++            <h1>todo: </h1>
++            <h2>create design</h2>
+             <h2>create nav</h2>
+             <h2>create components</h2>
+             <h2>create animation</h2>
+             <h2>add info and jobs</h2>
+-        </h1>
++        </div>
+     </div>
+   );
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"56e956e3-88fe-4ce7-a4dd-b0d8d2ddb20d\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/background.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.eslintcache\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/public/favicon.ico\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/favicon.ico\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/public/logo192.png\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/public/logo512.png\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/App.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/App.test.js\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/index.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/logo.svg\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/reportWebVitals.js\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/setupTests.js\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1ly7H60gwCPN6el7fij91oNnyiG\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_package_manager_path\" value=\"yarn\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n      <recent name=\"$PROJECT_DIR$/public\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"deploy\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"deploy\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"npm.deploy\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"56e956e3-88fe-4ce7-a4dd-b0d8d2ddb20d\" name=\"Default Changelist\" comment=\"\" />\n      <created>1608557385292</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1608557385292</updated>\n      <workItem from=\"1608557387382\" duration=\"1104000\" />\n      <workItem from=\"1608560816251\" duration=\"2000\" />\n      <workItem from=\"1608794103867\" duration=\"1461000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7c8c40fed758323e4d2ec373296bbcede071ba6e)
++++ b/.idea/workspace.xml	(date 1608797325139)
+@@ -2,19 +2,10 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="56e956e3-88fe-4ce7-a4dd-b0d8d2ddb20d" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/background.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -90,5 +81,6 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .eslintcache
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[{\"/Users/nikita/WebstormProjects/portfolio/src/App.js\":\"1\",\"/Users/nikita/WebstormProjects/portfolio/src/index.js\":\"2\"},{\"size\":317,\"mtime\":1608796708223,\"results\":\"3\",\"hashOfConfig\":\"4\"},{\"size\":219,\"mtime\":1608795747957,\"results\":\"5\",\"hashOfConfig\":\"4\"},{\"filePath\":\"6\",\"messages\":\"7\",\"errorCount\":0,\"warningCount\":0,\"fixableErrorCount\":0,\"fixableWarningCount\":0},\"q6z7s4\",{\"filePath\":\"8\",\"messages\":\"9\",\"errorCount\":0,\"warningCount\":0,\"fixableErrorCount\":0,\"fixableWarningCount\":0},\"/Users/nikita/WebstormProjects/portfolio/src/App.js\",[],\"/Users/nikita/WebstormProjects/portfolio/src/index.js\",[]]
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.eslintcache b/.eslintcache
+--- a/.eslintcache	(revision 7c8c40fed758323e4d2ec373296bbcede071ba6e)
++++ b/.eslintcache	(date 1608797346742)
+@@ -1,1 +1,1 @@
+-[{"/Users/nikita/WebstormProjects/portfolio/src/App.js":"1","/Users/nikita/WebstormProjects/portfolio/src/index.js":"2"},{"size":317,"mtime":1608796708223,"results":"3","hashOfConfig":"4"},{"size":219,"mtime":1608795747957,"results":"5","hashOfConfig":"4"},{"filePath":"6","messages":"7","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"q6z7s4",{"filePath":"8","messages":"9","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/Users/nikita/WebstormProjects/portfolio/src/App.js",[],"/Users/nikita/WebstormProjects/portfolio/src/index.js",[]]
+\ No newline at end of file
++[{"/Users/nikita/WebstormProjects/portfolio/src/App.js":"1","/Users/nikita/WebstormProjects/portfolio/src/index.js":"2"},{"size":354,"mtime":1608797345107,"results":"3","hashOfConfig":"4"},{"size":219,"mtime":1608795747957,"results":"5","hashOfConfig":"4"},{"filePath":"6","messages":"7","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"q6z7s4",{"filePath":"8","messages":"9","errorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0},"/Users/nikita/WebstormProjects/portfolio/src/App.js",[],"/Users/nikita/WebstormProjects/portfolio/src/index.js",[]]
+\ No newline at end of file
