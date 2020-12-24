@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fd2b783.chunk.css",
-    "main.js": "/static/js/main.8b3000e6.chunk.js",
-    "main.js.map": "/static/js/main.8b3000e6.chunk.js.map",
+    "main.css": "/static/css/main.c099d04c.chunk.css",
+    "main.js": "/static/js/main.7613f1ae.chunk.js",
+    "main.js.map": "/static/js/main.7613f1ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.df18c921.js",
     "runtime-main.js.map": "/static/js/runtime-main.df18c921.js.map",
-    "static/js/2.abdbd6ce.chunk.js": "/static/js/2.abdbd6ce.chunk.js",
-    "static/js/2.abdbd6ce.chunk.js.map": "/static/js/2.abdbd6ce.chunk.js.map",
+    "static/js/2.aa7708b6.chunk.js": "/static/js/2.aa7708b6.chunk.js",
+    "static/js/2.aa7708b6.chunk.js.map": "/static/js/2.aa7708b6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3fd2b783.chunk.css.map": "/static/css/main.3fd2b783.chunk.css.map",
-    "static/js/2.abdbd6ce.chunk.js.LICENSE.txt": "/static/js/2.abdbd6ce.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/background.be537559.png"
+    "static/css/main.c099d04c.chunk.css.map": "/static/css/main.c099d04c.chunk.css.map",
+    "static/js/2.aa7708b6.chunk.js.LICENSE.txt": "/static/js/2.aa7708b6.chunk.js.LICENSE.txt",
+    "static/media/mario-background-png.4796b49a.png": "/static/media/mario-background-png.4796b49a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df18c921.js",
-    "static/js/2.abdbd6ce.chunk.js",
-    "static/css/main.3fd2b783.chunk.css",
-    "static/js/main.8b3000e6.chunk.js"
+    "static/js/2.aa7708b6.chunk.js",
+    "static/css/main.c099d04c.chunk.css",
+    "static/js/main.7613f1ae.chunk.js"
   ]
 }
