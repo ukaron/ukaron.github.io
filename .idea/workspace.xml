@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56e956e3-88fe-4ce7-a4dd-b0d8d2ddb20d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/features/MainMenu/MainMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/MainMenu/MainMenu.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/MainMenu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Mario/Mario.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Mario/Mario.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/Mario/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mario-background-png.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +55,7 @@
         <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -88,7 +78,7 @@
       <workItem from="1608794103867" duration="1461000" />
       <workItem from="1608813696259" duration="4309000" />
       <workItem from="1608893871766" duration="7157000" />
-      <workItem from="1608902019985" duration="4116000" />
+      <workItem from="1608902019985" duration="4548000" />
     </task>
     <servers />
   </component>
