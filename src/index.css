@@ -80,9 +80,16 @@ select {
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    overflow: hidden;
     font-family: sans-serif;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+
+}
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url('./fonts/SuperMario256.ttf') format('ttf');
 }
 body::-webkit-scrollbar {
     display: none;
